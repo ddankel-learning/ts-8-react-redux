@@ -1,6 +1,6 @@
 # Simple NPM Package Search
 
-[View Site](#)
+[View Site](https://ddankel-learning.github.io/ts-8-react-redux/)
 
 An app to search NPM repositories for a given term, written with the purpose of exploring the use of Typescript when integrating React and Redux. This app was initially created as part of [Typescript: The Complete Developer's Guide](https://www.udemy.com/course/typescript-the-complete-developers-guide/) by Stephen Grider
 
@@ -16,6 +16,12 @@ An app to search NPM repositories for a given term, written with the purpose of 
    ```sh
    yarn start
    ```
+
+## Deployment
+
+Deploy app to github pages with
+
+    yarn deploy
 
 ## License
 
