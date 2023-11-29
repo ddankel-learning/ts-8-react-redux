@@ -12,7 +12,7 @@ export const searchRepositories = (term: string) => {
         params: { text: term },
       });
 
-      const names = data.objects.map((repository: any) => repository.name);
+      const names = data.objects.map((repository: any) => repository.package.name);
 
       dispatch({
         type: ActionType.SEARCH_REPOSITORIES_SUCCESS,
