@@ -1,12 +1,15 @@
 import { Provider } from "react-redux";
 import { store } from "../state";
-import RepositoriesList from "./RepositoriesList";
+import SearchForm from "./SearchForm";
+import SearchResults from "./SearchResults";
 
 const App = () => {
   return (
     <Provider store={store}>
       <h1>Search NPM Packages</h1>
-      <RepositoriesList />
+
+      <SearchForm />
+      <SearchResults />
     </Provider>
   );
 };
