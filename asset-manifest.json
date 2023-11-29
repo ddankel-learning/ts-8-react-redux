@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/ts-8-react-redux/static/js/main.e045fef0.js",
+    "index.html": "/ts-8-react-redux/index.html",
+    "main.e045fef0.js.map": "/ts-8-react-redux/static/js/main.e045fef0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e045fef0.js"
+  ]
+}
